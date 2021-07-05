@@ -1,11 +1,39 @@
 body {
   font-family: "Poppins", sans-serif;
-  font-size: 40px;
+  font-size: 30px;
+  text-align: justify;
+  margin: 0%;
+}
+p {
+  font-size: 20px;
+}
+h1 {
+  font-size: 50px;
 }
 section {
   display: flex;
   padding: 5%;
 }
+.buttons {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(orange, tomato);
+  padding: 2%;
+  border-radius: 20px;
+}
 .-imge {
-  width: 50%;
+  width: 100%;
+  padding-left: 5%;
+}
+.banner {
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  padding-left: -10px;
+}
+span {
+  color: orange;
+}
+.text {
+  align-items: flex-end;
+  padding-top: 12%;
 }
