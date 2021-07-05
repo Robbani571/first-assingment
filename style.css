@@ -1,0 +1,11 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+section {
+  display: flex;
+  padding: 5%;
+}
+.-imge {
+  width: 50%;
+}
