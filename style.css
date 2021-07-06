@@ -5,14 +5,31 @@ body {
   margin: 0%;
 }
 p {
-  font-size: 20px;
+  font-size: 15px;
 }
 h1 {
   font-size: 50px;
+  line-height: 0.5;
+}
+h2 {
+  font-size: 20px;
+}
+h4 {
+  color: gray;
+}
+.center {
+  text-align: center;
 }
 section {
   display: flex;
   padding: 5%;
+}
+.half-width {
+  width: 50%;
+  padding-top: 10%;
+}
+span {
+  color: rgb(255, 132, 50);
 }
 .buttons {
   text-decoration: none;
@@ -21,19 +38,46 @@ section {
   padding: 2%;
   border-radius: 20px;
 }
-.-imge {
-  width: 100%;
-  padding-left: 5%;
-}
-.banner {
-  background-image: url(images/shapes/7.png);
+
+.second-banner {
+  background-image: url(images/shapes/58.jpg);
   background-repeat: no-repeat;
-  padding-left: -10px;
+  background-size: 120%;
 }
-span {
-  color: orange;
+.half-width img {
+  padding-left: 20%;
 }
-.text {
-  align-items: flex-end;
-  padding-top: 12%;
+.half-width-asd img {
+  padding-top: -7px;
+}
+.third-sec {
+  text-align: center;
+}
+.card {
+  width: 40%;
+  float: left;
+  margin-left: 3%;
+  padding: 2%;
+}
+.card {
+  box-shadow: 5px 7px 40px gray;
+  height: 80%;
+  border-radius: 20px;
+}
+.card img {
+  border-radius: 20px;
+}
+footer {
+  color: rgb(221, 221, 221);
+  text-align: center;
+  padding-top: 5px;
+  background-color: rgb(22, 22, 22);
+  height: 200px;
+}
+.foure-sec {
+  height: 500px;
+  background-color: gray;
+}
+.contain {
+  text-overflow: initial;
 }
