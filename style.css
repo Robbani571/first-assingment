@@ -52,14 +52,14 @@ span {
 }
 .third-sec {
   text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 .card {
   width: 40%;
   float: left;
   margin-left: 3%;
   padding: 2%;
-}
-.card {
   box-shadow: 5px 7px 40px gray;
   height: 80%;
   border-radius: 20px;
@@ -73,11 +73,4 @@ footer {
   padding-top: 5px;
   background-color: rgb(22, 22, 22);
   height: 200px;
-}
-.foure-sec {
-  height: 500px;
-  background-color: gray;
-}
-.contain {
-  text-overflow: initial;
 }
